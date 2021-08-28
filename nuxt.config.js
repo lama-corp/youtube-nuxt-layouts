@@ -15,7 +15,17 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['~/assets/main.css'],
+
+  // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-transition
+  // https://nuxtjs.org/docs/2.x/features/transitions
+  layoutTransition: {
+    name: 'layout',
+    mode: 'out-in',
+    beforeEnter(el) {
+      console.log('Starting layout transition...')
+    },
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],

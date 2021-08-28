@@ -6,8 +6,8 @@ Nuxt 2 layouts : bases, imbrication, transitions et passage de données
 
 Fonctionnalité de base de Nuxt mais souvent mal utilisé : les layouts. Dans cette vidéo, tout est très simple, mais on va rentrer dans les cas particuliers ! :) <br />
 Au programme :
-- Les bases des layouts
-- Imbrication de layouts
+- Les bases des layouts : default, propriété layout
+- Imbriquer des layouts
 - Utilisation de la propriété layout en tant que fonction
 - Passer de la donnée au layout
 - Les transitions
