@@ -2,13 +2,18 @@
 
 Nuxt 2 layouts : bases, imbrication, transitions et passage de données
 
+## Lien vers la vidéo youtube
+
+https://youtu.be/dn9ASmZEIuc
+
 ## Video description
 
-Fonctionnalité de base de Nuxt mais souvent mal utilisé : les layouts. Dans cette vidéo, tout est très simple, mais on va rentrer dans les cas particuliers ! :) <br />
+Fonctionnalité de base de Nuxt mais souvent mal utilisé : les layouts. Dans cette vidéo, tout reste très simple, mais on va rentrer dans les cas particuliers ! :) <br />
 Au programme :
-- Les bases des layouts
-- Imbrication de layouts
+- Les bases des layouts : default, propriété layout
+- Imbriquer des layouts
 - Utilisation de la propriété layout en tant que fonction
+- Keep-alive
 - Passer de la donnée au layout
 - Les transitions
 
@@ -21,22 +26,6 @@ Sources :
 - [EN] Debbie : https://www.youtube.com/watch?v=0ioT7Q7kkVc
 - [FR] Documentation : https://fr.nuxtjs.org/docs/2.x/directory-structure/layouts
 - [EN] Documentation : https://nuxtjs.org/docs/2.x/directory-structure/layouts
-
-## Script de la vidéo
-
-Intro (fct pages sur Nuxt)<br />
-Subscribe / Thumb up<br />
-Générique<br />
-Pas de layout<br />
-Layout par défaut<br />
-Layout spécifique<br />
-Imbrication de layouts<br />
-Layout en tant que fonction<br />
-Passer de la donnée<br />
-Transitions<br />
-Remerciements / Sources / GitHub<br />
-Subscribe / Thumb up<br />
-
 
 ## Essayez vous-même !
 ```bash

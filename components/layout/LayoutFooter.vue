@@ -74,7 +74,7 @@ import IconTwitter from 'assets/icons/icon-twitter.svg?inline'
 import IconYoutube from 'assets/icons/icon-youtube.svg?inline'
 
 export default {
-  name: 'Footer',
+  name: 'LayoutFooter',
   components: {
     IconGithub,
     IconTelegram,
