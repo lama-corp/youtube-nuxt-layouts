@@ -5,6 +5,6 @@
 <script>
 export default {
   name: 'LayoutNested',
-  layout: 'nested',
+  layout: 'nested2',
 }
 </script>

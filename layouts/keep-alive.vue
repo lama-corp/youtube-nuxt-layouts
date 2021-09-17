@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-100 min-h-screen">
     <LayoutHeader />
-    <nuxt keep-alive />
+    <Nuxt keep-alive />
   </div>
 </template>
 

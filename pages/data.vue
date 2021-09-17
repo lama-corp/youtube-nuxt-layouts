@@ -13,8 +13,10 @@ export default {
     }, 3000)
   },
   // Si besoin de reset la donnée
-  // beforeDestroy() {
-  //   this.$store.commit('layouts/resetDataTitle')
-  // },
+  beforeDestroy() {
+    // eslint-disable-next-line no-console
+    console.log('DESTROY')
+    this.$store.commit('layouts/resetDataTitle')
+  },
 }
 </script>

@@ -22,9 +22,6 @@ export default {
   layoutTransition: {
     name: 'layout',
     mode: 'out-in',
-    beforeEnter(el) {
-      console.log('Starting layout transition...')
-    },
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
